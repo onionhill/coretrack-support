@@ -36,8 +36,10 @@ code, not by the model.
 
 If you tap the microphone in the chat, Fynn uses Apple's Speech
 framework to turn your speech into text. Transcription is performed by
-iOS, not by Fynn: depending on your device, language and settings, iOS
-may perform it on-device or send the audio to Apple for processing,
+iOS, not by Fynn, and Fynn **asks iOS to keep it on your device**
+whenever your device and language support on-device recognition. Where
+on-device recognition is not available — some languages and older
+devices — iOS falls back to processing the audio on Apple's servers,
 which is governed by [Apple's privacy
 policy](https://www.apple.com/legal/privacy/). Fynn only receives the
 resulting text, and only while you hold the mic active. You never have
