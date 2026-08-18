@@ -8,11 +8,13 @@ Pengerom has no account, cloud service, or ads.
 
 **Where is my data stored?**
 Pengerom stores your goals, entries, budget, challenges, accounts, and chat
-history on your iPhone. The app has no account and no server.
+history on your iPhone. The app has no account and no server. There is no iCloud
+sync, so your data stays on the one device.
 
 **Does Pengerom send my finances to a server?**
-No. Pengerom uses a built-in coach on your iPhone. It does not use an AI
-service or send your financial data to a server.
+No. Pengerom uses a built-in coach that runs on your iPhone. The coach follows
+rules written into the app. It uses no AI service and it makes no network
+connection.
 
 **Where do the numbers come from?**
 Pengerom calculates progress, payoff dates, interest, safe-to-spend, and
